@@ -14,6 +14,7 @@
 		CEF12E191F4F02DA0054B28A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CEF12E181F4F02DA0054B28A /* Assets.xcassets */; };
 		CEF12E1C1F4F02DA0054B28A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CEF12E1A1F4F02DA0054B28A /* LaunchScreen.storyboard */; };
 		CEF12E271F4F02DA0054B28A /* I_DoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEF12E261F4F02DA0054B28A /* I_DoTests.swift */; };
+		CEF12E331F4F08F10054B28A /* Model.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = CEF12E311F4F08F10054B28A /* Model.xcdatamodeld */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,6 +39,7 @@
 		CEF12E221F4F02DA0054B28A /* I DoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "I DoTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CEF12E261F4F02DA0054B28A /* I_DoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = I_DoTests.swift; sourceTree = "<group>"; };
 		CEF12E281F4F02DA0054B28A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CEF12E321F4F08F10054B28A /* Model.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Model.xcdatamodel; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +85,7 @@
 				CEF12E111F4F02DA0054B28A /* FirstViewController.swift */,
 				CEF12E131F4F02DA0054B28A /* SecondViewController.swift */,
 				CEF12E151F4F02DA0054B28A /* Main.storyboard */,
+				CEF12E311F4F08F10054B28A /* Model.xcdatamodeld */,
 				CEF12E181F4F02DA0054B28A /* Assets.xcassets */,
 				CEF12E1A1F4F02DA0054B28A /* LaunchScreen.storyboard */,
 				CEF12E1D1F4F02DA0054B28A /* Info.plist */,
@@ -203,6 +206,7 @@
 				CEF12E141F4F02DA0054B28A /* SecondViewController.swift in Sources */,
 				CEF12E101F4F02DA0054B28A /* AppDelegate.swift in Sources */,
 				CEF12E121F4F02DA0054B28A /* FirstViewController.swift in Sources */,
+				CEF12E331F4F08F10054B28A /* Model.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -436,6 +440,19 @@
 			defaultConfigurationIsVisible = 0;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		CEF12E311F4F08F10054B28A /* Model.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				CEF12E321F4F08F10054B28A /* Model.xcdatamodel */,
+			);
+			currentVersion = CEF12E321F4F08F10054B28A /* Model.xcdatamodel */;
+			path = Model.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = CEF12E041F4F02DA0054B28A /* Project object */;
 }
