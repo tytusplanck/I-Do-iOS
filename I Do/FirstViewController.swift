@@ -9,6 +9,10 @@
 import UIKit
 
 class FirstViewController: UIViewController {
+    //MARK: Properties
+
+    @IBAction func nameTextField(_ sender: Any) {
+    }
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -19,6 +23,8 @@ class FirstViewController: UIViewController {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
+    
+    //MARK: Actions
 
 
 }

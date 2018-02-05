@@ -1,0 +1,6 @@
+framework module Pods_I_Do {
+  umbrella header "Pods-I Do-umbrella.h"
+
+  export *
+  module * { export * }
+}
