@@ -1,5 +1,5 @@
 //
-//  SecondViewController.swift
+//  PlanningViewController.swift
 //  I Do
 //
 //  Created by Tytus Planck on 8/24/17.
@@ -8,7 +8,11 @@
 
 import UIKit
 
-class SecondViewController: UIViewController {
+class NewListController: UIViewController {
+    //MARK: Properties
+
+    @IBAction func nameTextField(_ sender: Any) {
+    }
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -19,6 +23,8 @@ class SecondViewController: UIViewController {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
+    
+    //MARK: Actions
 
 
 }
