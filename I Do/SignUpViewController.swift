@@ -12,6 +12,10 @@ import Firebase
 class SignUpViewController: UIViewController {
     //MARK: Properties
     
+    @IBOutlet weak var newEmail: UITextField!
+    @IBOutlet weak var newPassword: UITextField!
+    @IBOutlet weak var submitButton: UIButton!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
