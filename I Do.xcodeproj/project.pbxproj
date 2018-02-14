@@ -12,6 +12,7 @@
 		CE61914D2027C2BF00B7DA12 /* Model.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = CE61914B2027C2BF00B7DA12 /* Model.xcdatamodeld */; };
 		CE6259842028D5C6003B3D9A /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE6259832028D5C6003B3D9A /* SignUpViewController.swift */; };
 		CE6259862028DB54003B3D9A /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE6259852028DB54003B3D9A /* LoginViewController.swift */; };
+		CE7695712034B9840062B497 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE7695702034B9840062B497 /* HomeViewController.swift */; };
 		CEF12E101F4F02DA0054B28A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEF12E0F1F4F02DA0054B28A /* AppDelegate.swift */; };
 		CEF12E121F4F02DA0054B28A /* NewListController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEF12E111F4F02DA0054B28A /* NewListController.swift */; };
 		CEF12E171F4F02DA0054B28A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CEF12E151F4F02DA0054B28A /* Main.storyboard */; };
@@ -38,6 +39,7 @@
 		CE61914C2027C2BF00B7DA12 /* Model.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Model.xcdatamodel; sourceTree = "<group>"; };
 		CE6259832028D5C6003B3D9A /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
 		CE6259852028DB54003B3D9A /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		CE7695702034B9840062B497 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		CEF12E0C1F4F02DA0054B28A /* I Do.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "I Do.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CEF12E0F1F4F02DA0054B28A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CEF12E111F4F02DA0054B28A /* NewListController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewListController.swift; sourceTree = "<group>"; };
@@ -121,6 +123,7 @@
 				CEF12E1A1F4F02DA0054B28A /* LaunchScreen.storyboard */,
 				CEF12E1D1F4F02DA0054B28A /* Info.plist */,
 				CE2EB12E2028ADF500DE3D47 /* GoogleService-Info.plist */,
+				CE7695702034B9840062B497 /* HomeViewController.swift */,
 			);
 			path = "I Do";
 			sourceTree = "<group>";
@@ -242,11 +245,13 @@
 			);
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-I Do/Pods-I Do-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
 				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
 				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
 			);
@@ -297,6 +302,7 @@
 			files = (
 				CE6259862028DB54003B3D9A /* LoginViewController.swift in Sources */,
 				CEF12E101F4F02DA0054B28A /* AppDelegate.swift in Sources */,
+				CE7695712034B9840062B497 /* HomeViewController.swift in Sources */,
 				CE61914D2027C2BF00B7DA12 /* Model.xcdatamodeld in Sources */,
 				CEF12E121F4F02DA0054B28A /* NewListController.swift in Sources */,
 				CE6259842028D5C6003B3D9A /* SignUpViewController.swift in Sources */,

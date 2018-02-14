@@ -18,13 +18,25 @@
         <!--Home-->
         <scene sceneID="wgC-IH-RoA">
             <objects>
-                <viewController id="3vA-q7-dRY" sceneMemberID="viewController">
+                <viewController id="3vA-q7-dRY" customClass="HomeViewController" customModule="I_Do" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Sty-WP-lKV">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
+                            <navigationBar contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="k7r-h2-H5O">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+                                <items>
+                                    <navigationItem title="Home" id="1Xe-Fp-BG1"/>
+                                </items>
+                            </navigationBar>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cna-e7-YL6">
+                                <rect key="frame" x="163" y="424" width="48" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Logout"/>
+                            </button>
                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" fixedFrame="YES" text="Home" textAlignment="center" lineBreakMode="tailTruncation" minimumFontSize="10" translatesAutoresizingMaskIntoConstraints="NO" id="WUk-Jd-qtv">
-                                <rect key="frame" x="41" y="30" width="292" height="42"/>
+                                <rect key="frame" x="41" y="301" width="292" height="42"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <fontDescription key="fontDescription" name="Helvetica" family="Helvetica" pointSize="36"/>
@@ -36,10 +48,13 @@
                         <viewLayoutGuide key="safeArea" id="beh-sA-vKl"/>
                     </view>
                     <tabBarItem key="tabBarItem" title="Home" image="first" id="9a3-II-Fe8"/>
+                    <connections>
+                        <outlet property="logoutButton" destination="cna-e7-YL6" id="xYc-Jt-VCF"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="S84-9H-JO3" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="876" y="-748"/>
+            <point key="canvasLocation" x="876" y="-748.87556221889065"/>
         </scene>
         <!--Planning-->
         <scene sceneID="hNz-n2-bh7">
@@ -148,7 +163,7 @@
         <!--LoginController-->
         <scene sceneID="zFu-LX-dJa">
             <objects>
-                <viewController title="LoginController" id="rBw-b0-OVY" customClass="LoginViewController" customModule="I_Do" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="Login" title="LoginController" id="rBw-b0-OVY" customClass="LoginViewController" customModule="I_Do" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="2xo-8r-bsE">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -209,7 +224,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="tOi-HB-Rik" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-1172" y="-0.44977511244377816"/>
+            <point key="canvasLocation" x="-1172" y="0.0"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="yTg-zO-FU9">
@@ -286,7 +301,7 @@
         <!--Tab Bar Controller-->
         <scene sceneID="yl2-sM-qoP">
             <objects>
-                <tabBarController id="49e-Tb-3d3" sceneMemberID="viewController">
+                <tabBarController storyboardIdentifier="Home" id="49e-Tb-3d3" sceneMemberID="viewController">
                     <tabBar key="tabBar" contentMode="scaleToFill" id="W28-zg-YXA">
                         <rect key="frame" x="0.0" y="975" width="768" height="49"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
